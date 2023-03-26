@@ -93,7 +93,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 ## Environment
 
 Data processing, modeling and evaluation were implemented using Python 3.8.10 and Google Colab 0.0.1a2. The following data science and machine learning packages were used: imbalanced-learn 0.8.1, biomart 0.9.2, keras 2.6.0, numpy 1.22.4, pandas 1.3.5, scikit-learn 1.2.1, scipy 1.10.1, keras 2.11.0, rpy2 3.5.5, umap 0.5.3, and seaborn 0.11.2, matplotlib 3.5.1 and plotly 5.5.0 were used for plotting. 
- The code is availiable at https://github.com/kate-simonova/cancer-subtyping
+
 * Preprocessing of the data were conducted on the “KOIOS” high performance computing (HPC) system
    * OS: Gentoo 2.9
    * Kernel: x86_64 Linux 5.15.26-gentoo-x86_64
