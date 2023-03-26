@@ -16,7 +16,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 
 ## **Data analysis overview:**
 
-* *Data preparation:* 
+* **Data preparation steps:**
    * To unify gene names and gene IDs, Affymetrix / Illumina / Agilent probeset IDs were converted to Entrez ID
    * Removal of unlabelled samples and unification of subtype in case of breast and colorectal cancer datasets 
    * Removal of non-tumor tissue samples
@@ -24,7 +24,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
    * Removal of technical variation with conversion of genes to genesets
    * Principal component analysis (PCA) to reduce the dimensionality of the data
    * Oversampling of data with adaptive synthetic sampling approach (ADASYN) to solve imbalancing problem
-* *Used models:*
+* **Used models:**
     * Standard Autoencoder
     * Variational Autoencoder
     * kernel PCA with poly and sigmoid kernels
@@ -33,7 +33,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 
 ## **Data:**
 
-* Input data is represented by a matrix, where columns are sample names and rows are ENTREZ ID; in some cases the data were directly downloaded from GEO database with GEOparse package, otherwise data were loaded from cBioPortals or Bioconductor package; colorectal cancer datasets were loaded from https://synapse.org
+* Input data is represented by a matrix, where columns are sample names and rows are ENTREZ ID; in some cases the data were directly downloaded from GEO database with GEOparse package, otherwise data were loaded from [cBioPortals](https://www.cbioportal.org/) or Bioconductor packages ([breastCancerNKI](https://bioconductor.org/packages/release/data/experiment/html/breastCancerNKI.html), [breastCancerUNT](http://bioconductor.org/packages/release/data/experiment/html/breastCancerUNT.html), [breastCancerTRANSBIG](https://bioconductor.org/packages/release/data/experiment/html/breastCancerTRANSBIG.html), and [breastCancerUPP](https://bioconductor.org/packages/release/data/experiment/html/breastCancerUPP.html)); colorectal cancer datasets were loaded from [Synapse](https://synapse.org)
 * Data collection was the most time consuming step as majority of GEO gene expression datasets have around 100 samples
 * A list of datasets used for the project is shown below
 
@@ -77,12 +77,12 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 | BRCA   |  GSE48390 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         74        |      GEO     |
 | BRCA   | GSE135298 |       RNA sequencing      | Primary Tumor |                            FPKM                            |         93        |      GEO     |
 | Total  |     -     |             -             |       -       |                              -                             |       13700       |       -      |
-*Tissue types:* 
+**Tissue types:** 
 
 * FFPE - a formalin-fixed paraffin-embedded tissue
 * FNA - a fine needle aspiration biopsy.
 
-*Normalization:*
+**Normalization:**
 
 * FPKM - Fragments Per Kilobase per Million mapped fragments
 * REML - Restricted Maximum Likelihood
