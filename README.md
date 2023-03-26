@@ -37,46 +37,46 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 * Data collection was the most time consuming step as majority of GEO gene expression datasets have around 100 samples
 * A list of datasets used for the project is shown below
 
-| Cancer |     ID    |         Technology        |  Tissue type  |                        Normalization                       | Number of samples |
-|--------|:---------:|:-------------------------:|:-------------:|:----------------------------------------------------------:|:-----------------:|
-| CRC    |  GSE33113 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         80        |
-| CRC    |  GSE39582 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        466        |
-| CRC    |  KFSYSCC  |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        229        |
-| CRC    |  GSE35896 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         51        |
-| CRC    |  PETACC3  |  Almac's Affymetrix Array |      FFPE     |                            fRMA                            |        526        |
-| CRC    |  GSE13067 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         56        |
-| CRC    |  GSE20916 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         45        |
-| CRC    |  GSE23878 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         24        |
-| CRC    |  GSE14333 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        129        |
-| CRC    |  GSE2109  |   Affymetrix HG133plus2   |  Fresh frozen |                             RMA                            |        244        |
-| CRC    |  GSE17536 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        147        |
-| CRC    |  GSE13294 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        124        |
-| CRC    |  GSE37892 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        107        |
-| CRC    |    TCGA   |       RNA sequencing      | Primary Tumor |                            RSEM                            |        207        |
-| BRCA   |  GSE96058 |       RNA sequencing      | Primary Tumor |                            FPKM                            |        3273       |
-| BRCA   |  GSE65194 |   Affymetrix HG133plus2   | Primary Tumor |                         GC-RMA log2                        |         98        |
-| BRCA   |  GSE81538 |       RNA sequencing      | Primary Tumor |                            FPKM                            |        405        |
-| BRCA   |    ROCK   |   Affymetrix HG133plus2   | Primary Tumor |                        log2 and RMA                        |        1468       |
-| BRCA   |  METABRIC |       Illumina Array      | Primary Tumor |                   quantile normalization                   |        1898       |
-| BRCA   |    TCGA   |       RNA sequencing      | Primary Tumor |                            RSEM                            |        981        |
-| BRCA   |   CPTAC   |       RNA sequencing      | Primary Tumor |                             TPM                            |        122        |
-| BRCA   |    SMC    |       RNA sequencing      | Primary Tumor |                             TPM                            |        168        |
-| BRCA   |    NKI    |   Agilent Rosetta Array   | Primary Tumor |                             N/A                            |        337        |
-| BRCA   |  TRANSBIG | Affymetrix HG U133A Array | Primary Tumor |                       MAS5 normalized                      |        198        |
-| BRCA   |    UPP    | Affymetrix HG U133A Array | Primary Tumor | log transformed and scaled by adjusting the mean intensity |        190        |
-| BRCA   |    UNT    | Affymetrix HG U133A Array | Primary Tumor |                             RMA                            |         92        |
-| BRCA   |  GSE60789 |       Illumina Array      | Primary Tumor |                Illumina BeadStudio software                |         55        |
-| BRCA   |  GSE59595 |       Illumina Array      | Primary Tumor |                             RSN                            |        133        |
-| BRCA   |  GSE53031 |  Affymetrix HG 219 Array  | Primary Tumor |                             RMA                            |        167        |
-| BRCA   |  GSE56493 |   Rosetta/Merck HG2plus2  |      FNA      |                             RMA                            |        120        |
-| BRCA   |  GSE78958 |   Affymetrix HG133plus2   | Primary Tumor |               Partek Genomics Suite software               |        424        |
-| BRCA   |  GSE20711 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         88        |
-| BRCA   |  GSE45827 |   Affymetrix HG133plus2   | Primary Tumor |                            REML                            |        130        |
-| BRCA   |  GSE21653 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |        242        |
-| BRCA   |  GSE25066 | Affymetrix HG U133A Array | Primary Tumor |                       MAS5 normalized                      |        508        |
-| BRCA   |  GSE48390 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         74        |
-| BRCA   | GSE135298 |       RNA sequencing      | Primary Tumor |                            FPKM                            |         93        |
-
+| Cancer |     ID    |         Technology        |  Tissue type  |                        Normalization                       | Number of samples |    Source    |
+|--------|:---------:|:-------------------------:|:-------------:|:----------------------------------------------------------:|:-----------------:|:------------:|
+| CRC    |  GSE33113 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         80        |    Synapse   |
+| CRC    |  GSE39582 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        466        |    Synapse   |
+| CRC    |  KFSYSCC  |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        229        |    Synapse   |
+| CRC    |  GSE35896 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         51        |    Synapse   |
+| CRC    |  PETACC3  |  Almac's Affymetrix Array |      FFPE     |                            fRMA                            |        526        |    Synapse   |
+| CRC    |  GSE13067 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         56        |    Synapse   |
+| CRC    |  GSE20916 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         45        |    Synapse   |
+| CRC    |  GSE23878 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |         24        |    Synapse   |
+| CRC    |  GSE14333 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        129        |    Synapse   |
+| CRC    |  GSE2109  |   Affymetrix HG133plus2   |  Fresh frozen |                             RMA                            |        244        |    Synapse   |
+| CRC    |  GSE17536 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        147        |    Synapse   |
+| CRC    |  GSE13294 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        124        |    Synapse   |
+| CRC    |  GSE37892 |   Affymetrix HG133plus2   |  Fresh frozen |                            fRMA                            |        107        |    Synapse   |
+| CRC    |    TCGA   |       RNA sequencing      | Primary Tumor |                            RSEM                            |        207        |    Synapse   |
+| BRCA   |  GSE96058 |       RNA sequencing      | Primary Tumor |                            FPKM                            |        3273       |      GEO     |
+| BRCA   |  GSE65194 |   Affymetrix HG133plus2   | Primary Tumor | GC-RMA log2                                                |         98        |      GEO     |
+| BRCA   |  GSE81538 |       RNA sequencing      | Primary Tumor |                            FPKM                            |        405        |      GEO     |
+| BRCA   |    ROCK   |   Affymetrix HG133plus2   | Primary Tumor |                         log2 andRMA                        |        1468       |      GEO     |
+| BRCA   |  METABRIC |       Illumina Array      | Primary Tumor |                   quantile normalization                   |        1898       |  cBioPortal  |
+| BRCA   |    TCGA   |       RNA sequencing      | Primary Tumor |                            RSEM                            |        981        |  cBioPortal  |
+| BRCA   |   CPTAC   |       RNA sequencing      | Primary Tumor |                             TPM                            |        122        |  cBioPortal  |
+| BRCA   |    SMC    |       RNA sequencing      | Primary Tumor |                             TPM                            |        168        |  cBioPortal  |
+| BRCA   |    NKI    |   Agilent Rosetta Array   | Primary Tumor |                             N/A                            |        337        | Bioconductor |
+| BRCA   |  TRANSBIG | Affymetrix HG U133A Array | Primary Tumor |                       MAS5 normalized                      |        198        | Bioconductor |
+| BRCA   |    UPP    | Affymetrix HG U133A Array | Primary Tumor | log transformed and scaled by adjusting the mean intensity |        190        | Bioconductor |
+| BRCA   |    UNT    | Affymetrix HG U133A Array | Primary Tumor |                             RMA                            |         92        | Bioconductor |
+| BRCA   |  GSE60789 |       Illumina Array      | Primary Tumor |                Illumina BeadStudio software                |         55        |      GEO     |
+| BRCA   |  GSE59595 |       Illumina Array      | Primary Tumor |                             RSN                            |        133        |      GEO     |
+| BRCA   |  GSE53031 |  Affymetrix HG 219 Array  | Primary Tumor |                             RMA                            |        167        |      GEO     |
+| BRCA   |  GSE56493 |   Rosetta/Merck HG2plus2  |      FNA      |                             RMA                            |        120        |      GEO     |
+| BRCA   |  GSE78958 |   Affymetrix HG133plus2   | Primary Tumor |               Partek Genomics Suite software               |        424        |      GEO     |
+| BRCA   |  GSE20711 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         88        |      GEO     |
+| BRCA   |  GSE45827 |   Affymetrix HG133plus2   | Primary Tumor |                            REML                            |        130        |      GEO     |
+| BRCA   |  GSE21653 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |        242        |      GEO     |
+| BRCA   |  GSE25066 | Affymetrix HG U133A Array | Primary Tumor |                       MAS5 normalized                      |        508        |      GEO     |
+| BRCA   |  GSE48390 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         74        |      GEO     |
+| BRCA   | GSE135298 |       RNA sequencing      | Primary Tumor |                            FPKM                            |         93        |      GEO     |
+| Total  |     -     |             -             |       -       |                              -                             |       13700       |       -      |
 *Tissue types:* 
 
 * FFPE - a formalin-fixed paraffin-embedded tissue
