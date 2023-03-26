@@ -5,7 +5,7 @@
 Human cancer is a heterogeneous disease initiated by random somatic mutations and driven by multiple genomic alterations. Cancer subtype classification has the potential to significantly improve disease prognosis and move closer toward personalized cancer
 treatment and prevention. The assumption behind molecular subtyping is that patients of similar gene expression patterns are likely to have similar responses to therapies and clinical outcomes due to the tumor microenvironment. Thus, molecular subtyping can reveal information valuable for a range of cancer studies from cancer initiation and tumor biology to prognosis and personalized medicine. Molecular subtyping was widely described in breast and colorectal cancer, however, it was not broadly explored in other indications. In this work, molecular subtypes are explored via deep learning models, specifically the standard and variational autoencoder latent space. The analysis is performed on a range of publicly available datasets such as Gene Expression Omnibus (GEO), The Cancer Genome Atlas (TCGA) and the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC).
 
-![Project overview](./overview.png)
+![Data analysis overview](./overview.png)
 
 ## **Goals:**
 
