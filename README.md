@@ -21,7 +21,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
    * Removal of unlabelled samples and unification of subtype in case of breast and colorectal cancer datasets 
    * Removal of non-tumor tissue samples
    * Replacing missing expression values with zero constant
-   * Removal of technical variation with conversion of genes to genesets
+   * Removal of technical variation with conversion of genes to functional spectra
    * Principal component analysis (PCA) to reduce the dimensionality of the data
    * Oversampling of data with adaptive synthetic sampling approach (ADASYN) to solve imbalancing problem
 * **Used models:**
