@@ -105,3 +105,7 @@ Data processing, modeling and evaluation were implemented using Python 3.8.10 an
    * GPU: NVIDIA A100-SXM4-40GB
    * RAM: 25.5 GB
    * CPU: Intel(R) Xeon(R) CPU @ 4x, 2.00GHz
+
+## Data
+
+Google drive repository contains merged preprocessed dataset of colorectal and breast cancer samples (these files were generated in 02_functional_spectra_split_separation.ipynb notebook and could be split by different approach then used in this thesis for modeling): https://drive.google.com/drive/folders/172QUFmixh5wlD2fMScupLNKErN-eDl3P?usp=sharing
