@@ -77,6 +77,7 @@ treatment and prevention. The assumption behind molecular subtyping is that pati
 | BRCA   |  GSE48390 |   Affymetrix HG133plus2   | Primary Tumor |                             RMA                            |         74        |      GEO     |
 | BRCA   | GSE135298 |       RNA sequencing      | Primary Tumor |                            FPKM                            |         93        |      GEO     |
 | Total  |     -     |             -             |       -       |                              -                             |       13700       |       -      |
+
 **Tissue types:** 
 
 * FFPE - a formalin-fixed paraffin-embedded tissue
